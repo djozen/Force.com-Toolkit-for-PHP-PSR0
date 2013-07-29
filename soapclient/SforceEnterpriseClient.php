@@ -1,4 +1,7 @@
 <?php
+
+namespace djozen\PHPSR0ForceToolkit\Soapclient;
+
 /*
  * Copyright (c) 2007, salesforce.com, inc.
  * All rights reserved.
@@ -38,7 +41,7 @@ require_once ('SforceBaseClient.php');
 class SforceEnterpriseClient extends SforceBaseClient {
   const ENTERPRISE_NAMESPACE = 'urn:enterprise.soap.sforce.com';
 
-  function SforceEnterpriseClient() {
+  function __construct() {
     $this->namespace = self::ENTERPRISE_NAMESPACE;
   }
 

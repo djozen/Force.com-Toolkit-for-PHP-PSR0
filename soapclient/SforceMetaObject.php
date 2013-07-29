@@ -1,4 +1,7 @@
 <?php
+
+namespace djozen\PHPSR0ForceToolkit\Soapclient;
+
 /*
  * Copyright (c) 2007, salesforce.com, inc.
  * All rights reserved.
@@ -24,6 +27,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
+
 require_once('SforceFieldTypes.php');
 
 class SforceCustomObject {

@@ -1,4 +1,7 @@
 <?php
+
+namespace djozen\PHPSR0ForceToolkit\Soapclient;
+
 /*
  * Copyright (c) 2007, salesforce.com, inc.
  * All rights reserved.
@@ -25,11 +28,11 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
+
 /**
  * This file contains three classes.
  * @package SalesforceSoapClient
  */
-
 
 class CallOptions {
 	public $client;
