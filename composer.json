@@ -11,8 +11,16 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "djozen\\PHPSR0ForceToolkit\\Soapclient": "src/"
-        }
+        "files": [
+            "src/djozen/PHPSR0ForceToolkit/soapclient/ProxySettings.php",
+            "src/djozen/PHPSR0ForceToolkit/soapclient/SforceBaseClient.php",
+            "src/djozen/PHPSR0ForceToolkit/soapclient/SforceEmail.php",
+            "src/djozen/PHPSR0ForceToolkit/soapclient/SforceEnterpriseClient.php",
+            "src/djozen/PHPSR0ForceToolkit/soapclient/SforceHeaderOptions.php",
+            "src/djozen/PHPSR0ForceToolkit/soapclient/SforceMetadataClient.php",
+            "src/djozen/PHPSR0ForceToolkit/soapclient/SforceMetaObject.php",
+            "src/djozen/PHPSR0ForceToolkit/soapclient/SforcePartnerClient.php",
+            "src/djozen/PHPSR0ForceToolkit/soapclient/SforceProcessRequest.php"
+        ]
     }
 }
