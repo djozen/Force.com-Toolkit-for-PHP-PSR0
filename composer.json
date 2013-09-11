@@ -1,5 +1,5 @@
 {
-    "name": "djozen/phpforcetoolkit",
+    "name": "djozen/phpforcestoolkit",
     "type": "api",
     "description": "The integration of the Force.com Web Services SOAP API",
     "minimum-stability": "dev",
