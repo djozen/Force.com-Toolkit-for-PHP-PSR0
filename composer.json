@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "djozen\PHPSR0ForceToolkit\Soapclient": "soapclient/"
+            "djozen\\PHPSR0ForceToolkit\\Soapclient": "soapclient/"
         }
     }
 }
