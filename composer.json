@@ -1,0 +1,18 @@
+{
+    "name": "djozen/phpforcetoolkit",
+    "type": "api",
+    "description": "The integration of the Force.com Web Services SOAP API",
+    "minimum-stability": "dev",
+    "keywords": ["api", "salesforce", "soap"],
+    "authors": [
+        {
+            "name": "Johan Nagou",
+            "email": "djozen97@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "djozen\PHPSR0ForceToolkit\Soapclient": "soapclient/"
+        }
+    }
+}
